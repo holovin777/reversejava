@@ -6,7 +6,7 @@ public class Reverse {
 		System.out.println(reverse("Hello, world!"));
 	}
 	
-	public static String reverse(String input) {		
+	public static String reverse(String input) {
 
 		String inputWords[] = input.split(" ");
 		String outputWords[] = new String[inputWords.length];

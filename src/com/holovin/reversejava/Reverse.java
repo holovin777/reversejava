@@ -3,7 +3,9 @@ package com.holovin.reversejava;
 public class Reverse {
 	
 	public static void main(String[] args) {
+
 		System.out.println(reverse("Hello, world!"));
+
 	}
 	
 	public static String reverse(String input) {
@@ -12,7 +14,7 @@ public class Reverse {
 		String outputWords[] = new String[inputWords.length];
 		int i = 0;
 		for (String inputWord : inputWords) {
-			String reverse = new 				StringBuilder(inputWord).reverse().toString();
+			String reverse = new StringBuilder(inputWord).reverse().toString();
 			outputWords[i] = reverse;
 			i++;
 		}
